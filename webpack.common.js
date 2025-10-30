@@ -7,9 +7,9 @@ module.exports = {
     app: path.resolve(__dirname, 'src/scripts/index.js'),
   },
   output: {
-    path: path.resolve(__dirname, 'docs'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/citycareapp-1/',
+    publicPath: 'https://edwinguna.github.io/citycareapp-1/',
   },
   module: {
     rules: [
